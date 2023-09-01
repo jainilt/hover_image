@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "GTWalsheimPro";
+}
+body {
+    font-family: "Caveat";
+    font-family: "Poppins";
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  position: relative;
+}
+.elm {
+  height: 120px;
+  width: 100%;
+  /* background-color: red; */
+  border-bottom: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+}
+.elm h1 {
+  font-size: 6vw;
+  position: relative;
+  z-index: 9;
+  mix-blend-mode: difference;
+  text-align: center;
+}
+.elm img {
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  object-position: center;
+  position: absolute;
+  /* transform: translate(-50%,-50%); */
+  border-radius: 50%;
+  opacity: 0;
+  transition: all linear 0.1s;
+}
